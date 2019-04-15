@@ -39,8 +39,13 @@
     .main-border p{
       font-size: 13px;
     }
-
     .about-content i{
-      padding-top: 2.5rem;
+      font-size: 75px;
+    }
+    .about-content h2{
+      font-size: 40px;
+    }
+    .about-text-l{
+    
     }
   }
