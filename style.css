@@ -268,7 +268,7 @@ header{
   }
 
 .about-content{
-  padding-top: 5rem;
+  padding-top: 2.5rem;
   text-align: center;
 }
 
@@ -278,20 +278,26 @@ header{
 
 .about-content i{
   font-size: 100px;
-  padding-top: 10rem;
+  padding-top: 2.5rem;
 }
 
 .about-text-flex{
-  padding-top: 2.5rem;
+  padding-top: 1.7rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .about-text{
-  width: 25%;
-  flex: 1 0 300px;
-  margin: 0.4em;
+  flex: 1 0 350px;
+  margin: 0.8em 20em;
+  border-radius: 50px;
+  border: 2px solid #000;
+  transition: all .3s;
+}
+.about-text:hover{
+  background: #fafafa;
+  transform: scale(1.2);
 }
 
 .about-text h3{
@@ -300,5 +306,24 @@ header{
 
 .about-text p{
   font-size: 15px;
-  padding-bottom: 15px;
+}
+
+.about-text-l{
+  margin: 0.8em 20em;
+  flex: 1 0 350px;
+  border-radius: 50px;
+  border: 2px solid #000;
+  transition: all .3s;
+}
+.about-text-l:hover{
+  transform: scale(1.2);
+  background: #fafafa;
+}
+
+.about-text-l h3{
+  font-size: 25px;
+}
+
+.about-text-l p{
+  font-size: 15px;
 }
