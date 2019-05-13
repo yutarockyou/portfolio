@@ -3,62 +3,158 @@
   <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Responsive.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "reset.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   </head>
   <body>
+  <!--ヘッダー-->
     <header>
-      <div class="container">
-        <nav class="nav">
-          <h1 class="portfolio"><a href="index.html">Portfolio</a></h1>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#"><span>my</span>Skill</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <div id="nav-drawer">
-            <input id="nav-input" type="checkbox" class="nav-unshown">
-            <label id="nav-open" for="nav-input"><span></span></label>
-            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-            <div id="nav-content">
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#"><span>my</span>Skill</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <div class="main-border">
-          <h2>Iam IwaseYuta</h2>
-          <p>~My dream is Web Engineer~</p>
+      <div class="header-top">
+        <div class="headText">
+          <h1>I AM</h1>
+          <h1>IWASE YUTA</h1>
+        </div>
+        <div class="bubbles">
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <ul>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Skills</li></a>
+          <a href="#"><li>Dreams</li></a>
+        </ul>
+        <div class="bubbles">
+          <div class="bubble2"> </div>
+          <div class="bubble2"> </div>
+          <div class="bubble2"> </div>
+          <div class="bubble2"> </div>
+          <div class="bubble2"> </div>
+          <div class="bubble2"> </div>
+          <div class="bubble2"> </div>
+          <div class="bubble2"> </div>
+          <div class="bubble2"> </div>
+          <div class="bubble2"> </div>
         </div>
       </div>
     </header>
-    <div class="about">
-      <div class="about-content">
+    <!--アバウト-->
+    <div class="main">
+      <div class="contents">
+        <div class="background1"></div>
         <h2>About</h2>
-        <div class="border"></div>
-        <i class="fas fa-user-circle"></i>
-        <div class="about-text-flex">
-          <div class="about-text">
-            <h3>名前</h3>
-            <p>Iwase Yuta</p>
+        <div class="copy">
+          <h3>イワセユウタ</h3>
+          <p>IWASE YUTA</p>
+          <!--クリックでコンテンツ表示-->
+            <label for="toggle1">
+              <div class="button">
+                CLICK
+              </div>
+            </label>
+            <input type="checkbox" id="toggle1">
+            <div class="main-contents1">
+
+
+
+
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--スキル-->
+    <div class="main">
+      <!--<div class="navi">
+        <ul>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Skills</li></a>
+          <a href="#"><li>Dreams</li></a>
+        </ul>
+      </div>-->
+      <div class="contents">
+        <div class="background2"></div>
+        <div class="copy">
+          <h3>私にできること</h3>
+          <p>MY SKILLS</p>
+          <label for="toggle2">
+            <div class="button">
+              CLICK
+            </div>
+          </label>
+          <input type="checkbox" id="toggle2">
+          <div class="main-contents2">
+
+
+
+
           </div>
-          <div class="about-text">
-            <h3>出身地</h3>
-            <p>北海道</p>
-          </div>
-          <div class="about-text-l">
-            <h3>夢</h3>
-            <p>なんでもできるWebエンジニアになること</p>
+        </div>
+        <h2>Skills</h2>
+      </div>
+    </div>
+    <!--ドリーム-->
+    <div class="main">
+      <div class="contents-d">
+        <div class="background3"></div>
+        <h2>Dreams</h2>
+        <div class="copy">
+          <h3>やりたいこと</h3>
+          <p>MY GOAL</p>
+          <label for="toggle3">
+            <div class="button">
+              CLICK
+            </div>
+          </label>
+          <input type="checkbox" id="toggle3">
+          <div class="main-contents3">
+
+
+
+
           </div>
         </div>
       </div>
     </div>
+    <!--フッター-->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-copy">
+          <h2>～将来の夢はWEBエンジニア～</h2>
+          <p>できることを増やして自立できるレベルのエンジニアを目指してます</p>
+        </div>
+        <ul>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Skills</li></a>
+          <a href="#"><li>Dreams</li></a>
+        </ul>
+        <div class="bubbles">
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+          <div class="bubble1"> </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <small>© 2019 Iwase YUta</small>
+      </div>
+    </footer>
   </body>
 </html>
