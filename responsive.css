@@ -1,0 +1,48 @@
+@media screen and (max-width:650px){
+  .headText h1{
+    font-size: 15px;
+  }
+
+  .header-bottom  a{
+    font-size: 15px;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .footer-top  a{
+    font-size: 15px;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .contents h2{
+    font-size: 30px;
+  }
+
+  .contents-d h2{
+    font-size: 30px;
+  }
+
+  .copy h3{
+    font-size: 20px;
+  }
+
+  .copy p{
+    font-size: 15px;
+  }
+
+  .button{
+    font-size: 15px;
+    line-height: 30px;
+    height: 30px;
+  }
+
+  .footer-copy h2{
+    font-size: 20px;
+  }
+
+  .footer-copy p{
+    font-size: 15px;
+    line-height: 40px;
+  }
+}
