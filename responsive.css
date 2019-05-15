@@ -1,34 +1,34 @@
 @media screen and (max-width:650px){
   .headText h1{
-    font-size: 15px;
+    font-size: 25px;
   }
 
   .header-bottom  a{
-    font-size: 15px;
+    font-size: 20px;
     margin: 20px;
     padding: 15px;
   }
 
   .footer-top  a{
-    font-size: 15px;
+    font-size: 20px;
     margin: 20px;
     padding: 15px;
   }
 
   .contents h2{
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .contents-d h2{
-    font-size: 30px;
+    font-size: 35x;
   }
 
   .copy h3{
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .copy p{
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .button{
@@ -42,7 +42,7 @@
   }
 
   .footer-copy p{
-    font-size: 15px;
+    font-size: 10px;
     line-height: 40px;
   }
 }
