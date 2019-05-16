@@ -7,18 +7,23 @@ body{
 /*ボタンデザイン*/
 .button{
   display: inline-block;
-  line-height: 30px;
-  width: 100px;
-  height: 30px;
+  line-height: 40px;
+  width: 110px;
+  height: 40px;
   background: #fff;
   border: 1px solid #000;
   cursor: pointer;
   transition: all 1s;
 }
+.button h4{
+  font-size: 16px;
+  transition: all 1s;
+}
 .button:hover{
   background: none;
-  text-shadow: 10px 10px 3px #e00364;
-  box-shadow: 10px 10px 3px #e00364;
+}
+.button:hover h4{
+  transform: scale(1.5);
 }
 
 /*ヘッダー*/
@@ -225,7 +230,7 @@ header{
   height: 100%;
   background: #ff9800;
   z-index: 9999;
-  transition: all 3s;
+  transition: all 2s;
   transform: translateX(-105%);
   opacity: 0;
 }
@@ -269,7 +274,7 @@ header{
   height: 100%;
   background: #235180;
   z-index: 9999;
-  transition: all 3s;
+  transition: all 2s;
   transform: translateX(-105%);
   opacity: 0;
 }
@@ -291,7 +296,7 @@ header{
   height: 100%;
   background: #ff9800;
   z-index: 9999;
-  transition: all 3s;
+  transition: all 2s;
   transform: translateX(-105%);
   opacity: 0;
 }
