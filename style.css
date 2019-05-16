@@ -8,10 +8,11 @@ body{
 .button{
   display: inline-block;
   line-height: 40px;
-  width: 110px;
+  width: 130px;
   height: 40px;
   background: #fff;
-  border: 1px solid #000;
+  opacity: .8;
+  border: 2px solid #000;
   cursor: pointer;
   transition: all 1s;
 }
@@ -20,6 +21,8 @@ body{
   transition: all 1s;
 }
 .button:hover{
+  background: #fff;
+  opacity: 1;
   transform: scale(1.2);
 }
 .button:hover h4{
@@ -354,7 +357,7 @@ footer{
 .footer-copy p{
   color: #fff;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 80px;
 }
 
 
